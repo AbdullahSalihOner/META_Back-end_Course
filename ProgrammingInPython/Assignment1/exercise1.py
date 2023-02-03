@@ -7,7 +7,7 @@
 # loyalty = type boolean
 
 # Modify the line below
-name = str(int(float(input('What is your name? '))))
+name = input('What is your name? ')
 
 print(f"Type of name variable is: {type(name)}. It should be <class 'str'>")
 
@@ -17,7 +17,7 @@ age = int(input('What is your age? '))
 print(f"Type of age variable is: {type(age)}. It should be <class 'int'>")
 
 # Modify the line below
-height = float(int(input('What is your height in meters? ')))
+height = float(input('What is your height in meters? '))
 
 print(f"Type of height variable is: {type(height)}. It should be <class 'float'>")
 
